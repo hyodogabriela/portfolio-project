@@ -49,10 +49,32 @@
      color: var(--primary-color);
      text-align-last: left;
  }
- 
+
+.about-section{
+    padding: 160px 20px;
+}
 .about-section h1 {
+    
+    text-align: left;
+    font-size: 46px;
     color: var(--primary-color);
 }
+.about-section h2 {
+    text-align: left;
+    font-size: 32px;
+    color: #987654;
+}
+.about-section img {
+        border-radius: 25px;
+        width: 450px;
+        border: 2px solid #DF6C4F;
+        margin-top: 100px;
+        padding: 10px;
+     }
+.about-section-content {
+    margin: 30px;
+}
+
 
  .hero {
      background-color: var(--primary-color);
