@@ -17,6 +17,15 @@
      .project-description {
          text-align: center;
      }
+
+     .about-section {
+        text-align: center !important;
+        padding: 0 !important;
+     }
+
+     .img-wrapper {
+        margin-top: 0 !important;
+     }
     
  }
  
@@ -53,6 +62,7 @@
 .about-section{
     padding: 160px 20px;
 }
+
 .about-section h1 {
     
     text-align: left;
@@ -67,15 +77,16 @@
 .about-section img {
         border-radius: 25px;
         width: 450px;
-        border: 2px solid #DF6C4F;
-        margin-top: 100px;
+        border: 2px solid #DF6C4F; 
         padding: 10px;
      }
 .about-section-content {
     margin: 30px;
 }
 
-
+.img-wrapper {
+    margin-top: 100px;
+}
  .hero {
      background-color: var(--primary-color);
      text-align: center;
