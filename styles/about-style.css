@@ -1,0 +1,17 @@
+:root{
+    --primary-color: #DF6C4F;
+    --secondary-color: #f3e0dc;
+    --default-font-family: 'Poppins', sans-serif;
+ }
+
+ h1 {
+    color: var(--primary-color);
+ }
+
+ img {
+    border-radius: 25px;
+    width: 450px;
+    border-width: 2px;
+    border-color: #DF6C4F;
+    margin-top: 100px;
+ }
