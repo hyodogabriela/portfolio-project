@@ -52,7 +52,11 @@
      font-size: 16px;
  }
  
- 
+ #recent-projects {
+    color: #987654;
+    font-family: var(--default-font-family);
+    text-transform: uppercase;
+ }
  
  #project-name {
      color: var(--primary-color);
