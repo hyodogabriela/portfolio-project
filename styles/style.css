@@ -73,7 +73,7 @@
     font-size: 46px;
     color: var(--primary-color);
 }
-.content-container h2 {
+.content-container h2, h3 {
     text-align: left;
     font-size: 32px;
     color: #987654;
