@@ -13,19 +13,43 @@
          text-align: center;
          font-size: 40px;
      }
+
+    body .project-name {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
  
-     body .project-description {
+    body .project-description {
          text-align: center;
      }
 
-     body .about-section {
+    body .about-section {
         text-align: center; 
         padding: 0;
      }
 
-     body .img-wrapper {
+    body .img-wrapper {
         margin-top: 0 
      }
+
+    body footer .contact-box {
+        padding:  30px;   
+    }
+
+    footer #box-btn {
+        font-size: 12px;
+        padding: 14px;
+        margin-top: 20px;
+    }
+    
+    footer h4 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
     
  }
  
@@ -46,26 +70,19 @@
      font-size: 36px;
      color: white;
  }
+
+ h4 {
+    font-size: 36px;
+    font-family: 'Rokkitt', serif;
+    color:#5c2018;
+ }
  
  p {
      line-height: 30px;
      font-size: 16px;
  }
+
  
- #recent-projects {
-    color: #987654;
-    font-family: var(--default-font-family);
-    text-transform: uppercase;
- }
- 
- #project-name {
-     color: var(--primary-color);
-     text-align-last: left;
-     list-style: none;
- }
-
-
-
 nav {
     padding: 20px 0;
 }
@@ -96,6 +113,64 @@ nav a:hover, nav li.active a {
     color: var(--primary-color);
     
 }
+ 
+footer {
+    margin: 60px 0;
+}
+
+footer .contact-box {
+    background-color: #d4a59a;
+    padding: 30px 60px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer #box-btn {
+    margin-top: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color:#5c2018;
+    font-size: 22px;
+
+}
+
+footer .email-link:hover {
+    color: var(--primary-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: #bc463a;
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 120ms ease-in-out;
+
+}
+
+footer .social-links a:hover {
+    color:white;
+    background-color: #DF6C4F;
+}
+
+ #recent-projects {
+    color: #987654;
+    font-family: var(--default-font-family);
+    text-transform: uppercase;
+ }
+ 
+ .project-name {
+     color: var(--primary-color);
+     text-align-last: left;
+     list-style: none;
+     margin-bottom: 48px;
+ }
 
 .logo {
     max-height: 45px;
