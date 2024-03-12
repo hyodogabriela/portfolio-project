@@ -177,7 +177,7 @@ footer .social-links a:hover {
 }
 
 .content-container{
-    padding: 160px 20px;
+    padding: 40px 20px;
 }
 
 .content-container h1 {
@@ -215,7 +215,7 @@ footer .social-links a:hover {
  .hero {
      background-color: var(--primary-color);
      text-align: center;
-     padding: 160px 20px;
+     padding: 80px 20px;
  }
  
  .hero h3{
