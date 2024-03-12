@@ -240,9 +240,11 @@ footer .social-links a:hover {
      font-weight: 600;
  }
  
- .weather-img {
-     max-width: 400px;
-     border-radius: 4px;
+ .container-img {
+    border-radius: 25px;
+    width: 450px;
+    border: 2px solid #DF6C4F; 
+    padding: 10px;
  }
  
  .btn-branding-outline {
